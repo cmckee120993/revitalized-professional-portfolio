@@ -1,0 +1,36 @@
+footer {
+    background: #DCC7AA;
+    width: 100%;
+}
+
+.links, .logo-div, .header-div {
+    display: flex;
+    justify-content: center;
+}
+
+.links {
+background-color: #F7882F;
+}
+
+img {
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    margin-bottom: 0;
+}
+
+.logo {
+    background-color: #6B7A8F;
+    height: 100px;
+    width: 250px;
+    margin: 1;
+    border: solid #6B7A8F;
+    box-shadow: 0 4px 8px 0 #6B7A8F, 0 6px 20px 0 #6B7A8F;
+    padding-right: 20px;
+}
+
+h3 {
+    margin: 1;
+    font-size: 12px;
+}
+
