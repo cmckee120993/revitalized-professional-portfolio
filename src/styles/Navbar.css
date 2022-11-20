@@ -1,0 +1,12 @@
+.topnav {
+background: #F7882F;
+display: flex;
+justify-content: right;
+}
+
+.nav-button {
+    border: none;
+    background: none;
+    color: #DCC7AA;
+    margin-left: 8%;
+}

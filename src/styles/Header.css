@@ -1,0 +1,9 @@
+/* #DCC7AA */
+/* #6B7A8F */
+
+.header {
+    background: #DCC7AA;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
