@@ -1,0 +1,19 @@
+/* Apple Core: #DCC7AA */
+/* Blueberry: #6B7A8F */
+/* Citrus: #F7C331 */
+/* Apricot: #F7882F */
+/* Rusty: #DD7E00 */
+
+
+.body {
+background: #DD7E00;
+padding: 1px;
+}
+
+.portrait {
+    height: 150px;
+    width: 75px;
+    border: 3px solid black;
+    border-radius: 50%;
+    object-fit: fit;
+}

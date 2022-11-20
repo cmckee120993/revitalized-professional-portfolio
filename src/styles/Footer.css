@@ -1,5 +1,5 @@
 footer {
-    background: #DCC7AA;
+    background: #F7C331;
     width: 100%;
 }
 
@@ -9,10 +9,10 @@ footer {
 }
 
 .links {
-background-color: #F7882F;
+background-color: #6B7A8F;
 }
 
-img {
+.footer-img {
     height: 50px;
     width: 50px;
     margin: 10px;
@@ -23,7 +23,7 @@ img {
     background-color: #6B7A8F;
     height: 100px;
     width: 250px;
-    margin: 1;
+    margin-top: 10px;
     border: solid #6B7A8F;
     box-shadow: 0 4px 8px 0 #6B7A8F, 0 6px 20px 0 #6B7A8F;
     padding-right: 20px;

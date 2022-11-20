@@ -8,8 +8,8 @@ function Footer() {
 return (
 <footer className="footer">
     <div className="links">
-            <a href="https://github.com/cmckee120993"><img alt="Link to Github" src={github} /></a>
-            <a href="https://www.linkedin.com/in/clayton-mckee-ba992a123/"><img alt="Link to LinkedIn" src={linkedin} /></a>
+            <a href="https://github.com/cmckee120993"><img className="footer-img" alt="Link to Github" src={github} /></a>
+            <a href="https://www.linkedin.com/in/clayton-mckee-ba992a123/"><img className="footer-img" alt="Link to LinkedIn" src={linkedin} /></a>
         </div>
         <div className="logo-div">
             <img className="logo" alt="Clay's Creative Solutions Logo" src={logo} />

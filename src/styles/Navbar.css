@@ -1,5 +1,5 @@
 .topnav {
-background: #F7882F;
+background:#6B7A8F;
 display: flex;
 justify-content: right;
 }
@@ -7,6 +7,6 @@ justify-content: right;
 .nav-button {
     border: none;
     background: none;
-    color: #DCC7AA;
+    color: #F7882F;
     margin-left: 8%;
 }
