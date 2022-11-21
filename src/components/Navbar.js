@@ -1,15 +1,19 @@
 import React from 'react';
-import '../styles/Navbar.css'
+import '../styles/Navbar.css';
 
-function Navbar() {
+function Navigation(props) {
+    const tabs = ['About', 'Portfolio', 'Contact', 'Resume']
     return (
         <navbar className="topnav">
-            <button className="nav-button"><h2>About Me</h2></button>
-            <button className="nav-button"><h2>Portfolio</h2></button>
-            <button className="nav-button"><h2>Contact</h2></button>
-            <button className="nav-button"><h2>Résumé</h2></button>
+            {tabs.map((tab) => (
+            <button className={props.currentPage === tab ? 'nav-item is-active' : 'nav-item'} key={tab}>
+                <a href={'#' + tab.toLowerCase()} onClick={() => props.handlePageChange(tab)} className={props.currentPage === tab ? 'nav-link active' : 'nav-link'}>
+                    <h2>{tab}</h2>
+                </a>
+            </button>
+            ))}
         </navbar>
     );
 };
 
-export default Navbar;
+export default Navigation;

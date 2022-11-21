@@ -1,8 +1,9 @@
 import React from 'react';
-import '../styles/Body.css';
-import Portrait from '../assets/images/clay-portrait.jpg'
+import '../styles/About.css';
+import Portrait from '../assets/images/clay-portrait.jpg';
 
-function Body() {
+
+function About() {
     return (
         <div className="body">
         <h2>Clayton McKee</h2>
@@ -14,4 +15,4 @@ function Body() {
     )
 };
 
-export default Body; 
+export default About; 
