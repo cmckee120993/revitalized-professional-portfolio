@@ -1,12 +1,11 @@
-import React, {useState} from 'react';
+import React from 'react';
 import '../styles/Contact.css';
 import {useForm, ValidationError} from '@formspree/react';
-import {validateEmail} from '../util/helpers';
-require('dotenv').config();
+
 
 
 function Contact() {
-    const [state, handleSubmit] = useForm(process.env.REACT_PORTFOLIO_FORM_ID);
+    const [state, handleSubmit] = useForm('xqkjjjnr');
 
     if(state.succeeded) {
         return (
@@ -16,11 +15,36 @@ function Contact() {
             </div>
         );
     }
-    return (
-       <form onSubmit={handleSubmit}>
 
-       </form>
-    )
+
+    return (
+        <div>
+            <p>Contact Me</p>
+
+        <form onSubmit={handleSubmit}>
+            <div>
+                <label htmlFor="name">Name</label>
+                <input id="name" type="text" name="name"/>
+            </div>
+            <div>
+                <label htmlFor="email">Email</label>
+                <input id="email" type="email" name="email"/>
+            </div>
+            <div>
+                <label htmlFor="message">Message</label>
+                <textarea className="textarea" name="message" rows="10"/>
+            </div>
+            <ValidationError 
+        prefix="Message" 
+        field="message"
+        errors={state.errors}
+      />
+      <button type="submit" disabled={state.submitting}>
+        Submit
+      </button>
+    </form>
+    </div>
+  )
 };
 
 export default Contact; 
