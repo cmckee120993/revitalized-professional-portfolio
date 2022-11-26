@@ -1,12 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
+
 .topnav {
 background:#6B7A8F;
 display: flex;
 justify-content: right;
 }
 
-.nav-button {
+.topnav button {
     border: none;
     background: none;
-    color: #F7882F;
     margin-left: 8%;
+    margin-right: 2%;
 }
+
+.topnav button:hover, .topnav a:hover {
+    background: #DCC7AA;
+    color: #6B7A8F;
+    text-decoration: underline;
+}
+
+.topnav a {
+   color: #F7882F;
+   text-decoration: none;
+   font-family: 'Acme', sans-serif;
+   font-size: 20px;
+}
+
+@media only screen and (max-width: 640px) {
+    .topnav a {
+        font-size: 15px;
+    }
+
+    .topnav button {
+        margin-left: 4%;
+        margin-right: 2%;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .topnav a {
+        font-size: 15px;
+    }
+
+    .topnav button {
+        width: 100%;
+        margin: 0;
+    }
+
+    .topnav {
+        display: inline-block;
+        background:#6B7A8F;
+        width: 100%;
+    }
+}
+
+/* Apple Core: #DCC7AA */
+/* Blueberry: #6B7A8F */
+/* Citrus: #F7C331 */
+/* Apricot: #F7882F */
+/* Rusty: #DD7E00 */
