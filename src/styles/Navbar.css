@@ -1,9 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
 
 .topnav {
-background:#6B7A8F;
+background:#F7C331;
 display: flex;
-justify-content: right;
+justify-content: center;
+border-bottom-left-radius: 50% 40%;
+    border-bottom-right-radius: 50% 40%;
 }
 
 .topnav button {
@@ -15,15 +17,19 @@ justify-content: right;
 
 .topnav button:hover, .topnav a:hover {
     background: #DCC7AA;
-    color: #6B7A8F;
+    color: #F7882F;
     text-decoration: underline;
 }
 
 .topnav a {
-   color: #F7882F;
+   color: #6B7A8F;
    text-decoration: none;
    font-family: 'Acme', sans-serif;
    font-size: 20px;
+}
+
+.topnav h2 {
+    background: none;
 }
 
 @media only screen and (max-width: 640px) {
@@ -49,7 +55,6 @@ justify-content: right;
 
     .topnav {
         display: inline-block;
-        background:#6B7A8F;
         width: 100%;
     }
 }

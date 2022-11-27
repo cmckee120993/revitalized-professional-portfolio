@@ -1,6 +1,39 @@
-.header {
+@import url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
+
+.header, .icons {
     background: #F7C331;
     display: flex;
     justify-content: center;
     padding: 15px;
 }
+
+.header h1 {
+    font-family: 'Acme', sans-serif;
+    font-size: 100px;
+    color:  #F7882F ;
+    -webkit-text-stroke: 1px #6B7A8F;
+    background: none;
+}
+
+.icons {
+margin-top: -50px;
+color: #6B7A8F;
+}
+
+.icon {
+    background: none;
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+}
+@media only screen and (max-width: 640px) {
+    .header h1 {
+        font-size: 50px;
+    }
+}
+
+/* Apple Core: #DCC7AA */
+/* Blueberry: #6B7A8F */
+/* Citrus: #F7C331 */
+/* Apricot: #F7882F */
+/* Rusty: #DD7E00 */
