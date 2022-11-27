@@ -3,17 +3,77 @@
 /* Citrus: #F7C331 */
 /* Apricot: #F7882F */
 /* Rusty: #DD7E00 */
-@import url("https://fonts.googleapis.com/css2?family=Acme&family=Syne+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Patrick+Hand&display=swap");
+.about {
+    background: #DCC7AA;
+    padding: 5px;
+    margin: 10px
+}
 
-.body {
-background: #DD7E00;
-padding: 1px;
+.card-header {
+    background: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-title {
+    background: none;
+    display: flex;
+    justify-content: center;
+    
 }
 
 .portrait {
-    height: 150px;
-    width: 75px;
-    border: 3px solid black;
+    height: 300px;
+    width: 150px;
+    border: 8px solid #DD7E00;
     border-radius: 50%;
     object-fit: fit;
+    margin-top: 20px;
+    z-index: 1;
+    position: relative;
+}
+
+.card-title h2 {
+    margin-top: 125px;
+    margin-left: -40px;
+    font-family: 'Acme', sans-serif;
+    font-size: 35px;
+    background: #F7C331;
+    padding-left: 70px;
+    padding-right: 30px;
+}
+.title-list, .title-list li {
+    background: #DD7E00;
+}
+
+.title-list {
+    margin-top: -150px;
+}
+
+.title-list li {
+    margin-left: 150px;
+    font-size: 20px;
+    font-family: 'Patrick Hand', cursive;
+}
+
+.about-info {
+    background: #DD7E00;
+    margin-top: 25px;
+    margin-right: 10px;
+    padding: 10px;
+    text-align: justify;
+    position: relative;
+    top: 40px;
+    left: 40px;
+}
+
+.about-info p {
+    background: none;
+    font-size: 20px;
+    font-family: 'Patrick Hand', cursive;
+    color: black;
+    margin-left: 10px;
+    margin-right: 10px;
 }
