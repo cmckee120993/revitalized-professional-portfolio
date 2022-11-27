@@ -54,19 +54,21 @@
 
 .title-list li {
     margin-left: 150px;
+    padding-right: 10px;
     font-size: 20px;
     font-family: 'Patrick Hand', cursive;
 }
 
 .about-info {
-    background: #DD7E00;
-    margin-top: 25px;
+    background: #F7C331;
+    border: 5px solid #DD7E00;
+    margin-top: 40px;
     margin-right: 10px;
     padding: 10px;
     text-align: justify;
     position: relative;
-    top: 40px;
-    left: 40px;
+    top: 30px;
+    left: 30px;
 }
 
 .about-info p {
