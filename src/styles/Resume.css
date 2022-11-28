@@ -1,0 +1,71 @@
+/* Apple Core: #DCC7AA */
+/* Blueberry: #6B7A8F */
+/* Citrus: #F7C331 */
+/* Apricot: #F7882F */
+/* Rusty: #DD7E00 */
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Patrick+Hand&display=swap");
+
+.resume-cat {
+    background: #DCC7AA;
+    padding: 20px;
+}
+
+.resume-title {
+    font-family: 'Acme', sans-serif;
+    font-size: 40px;
+    background: #F7C331;
+    color: #DD7E00;
+    -webkit-text-stroke: 1px #6B7A8F;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    top: 50px;
+    right: 20px;
+}
+
+.resume-cat h3 {
+    font-family: 'Acme', sans-serif;
+    font-size: 25px;
+    background: #DD7E00;
+    padding: 10px;
+    position: relative;
+    top: 35px;
+    right: 10px;
+}
+
+.skills, .education {
+    font-family: 'Patrick Hand', cursive;
+    font-size: 20px;
+    background: #F7C331;
+    padding: 5px;
+    margin: 10px;
+    justify-content: center;
+}
+.skills {
+    padding-top: 15px;
+}
+
+.skills li {
+    display: inline-block;
+    width: 33%;
+    background: none;
+    text-align: center;
+}
+
+.education li {
+    background: none;
+    margin-left: 10px;
+    list-style: none;
+}
+
+.top-item {
+    margin-top: 20px;
+}
+
+.university-info {
+    background: none;
+}
+
+.university-info li {
+    list-style-type: square;
+}

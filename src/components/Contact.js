@@ -19,7 +19,7 @@ function Contact() {
 
     return (
         <div>
-            <p className="contact-title">Contact Me</p>
+            <h2 className="contact-title">Contact Me</h2>
 
         <form className="contact-form" onSubmit={handleSubmit}>
             <div>

@@ -4,8 +4,9 @@ import "../styles/Resume.css";
 function Resume() {
   return (
     <content>
-      <div>
-        <h2>Programming Skills</h2>
+      <h2 className="resume-title">Résumé</h2>
+      <div className="resume-cat">
+        <h3>Programming Skills</h3>
         <ul className="skills">
           <li>HTML</li>
           <li>CSS</li>
@@ -24,37 +25,37 @@ function Resume() {
           <li>State</li>
         </ul>
 
-        <h2>Education</h2>
+        <h3>Education</h3>
         <ul className="education">
-            <li>University of California, Los Angeles</li>
-                <ul>
+            <li className="top-item">University of California, Los Angeles</li>
+                <ul className="university-info">
                     <li>June to December 2022</li>
                     <li>Certificate Full Stack Web Development</li>
                 </ul>
-            <li>University of California, Los Angeles</li>
-            <ul>
+            <li className="top-item">University of California, Los Angeles</li>
+            <ul className="university-info">
                 <li>Fall 2018 to Present</li>
                 <li>Doctoral Candidate in the Department of Comparative Literature</li>
                 <li>Certificates:</li>
-                    <ul>
+                    <ul className="university-info">
                         <li>Urban Humanitites</li>
                         <li>Writing Pedagogy: Language Learner Emphasis</li>
                     </ul>
             </ul>
-            <li>Penn State University</li>
-                <ul>
+            <li className="top-item">Penn State University</li>
+                <ul className="university-info">
                     <li>Summer 2012 to Spring 2017</li>
                     <li>MA: Comparative Literature</li>
                     <li>BAs:</li>
-                        <ul>
+                        <ul className="university-info">
                             <li>Comparative Literature</li>
                             <li>French</li>
                             <li>Spanish</li>
                         </ul>
                     <li>Minor: Arabic</li>
                 </ul>
-            <li>Additional Education:</li>
-                <ul>
+            <li className="top-item">Additional Education:</li>
+                <ul className="university-info">
                     <li>Middlebury College Summer Language, Arabic (2020)</li>
                     <li>Concordia University, Translation and the City (2019)</li>
                     <li>University of Houston-Victoria, Certificate in Literary Translation (2017)</li>

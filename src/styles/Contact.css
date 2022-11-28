@@ -8,10 +8,10 @@
 
 .contact-title {
     font-family: 'Acme', sans-serif;
-    font-size: 35px;
+    font-size: 40px;
     background: #F7C331;
     color: #DD7E00;
-    -webkit-text-stroke: 2px #6B7A8F;
+    -webkit-text-stroke: 1px #6B7A8F;
     text-align: center;
     padding: 10px;
     position: relative;
