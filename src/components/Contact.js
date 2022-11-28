@@ -19,9 +19,9 @@ function Contact() {
 
     return (
         <div>
-            <p>Contact Me</p>
+            <p className="contact-title">Contact Me</p>
 
-        <form onSubmit={handleSubmit}>
+        <form className="contact-form" onSubmit={handleSubmit}>
             <div>
                 <label htmlFor="name">Name</label>
                 <input id="name" type="text" name="name"/>
@@ -39,9 +39,11 @@ function Contact() {
         field="message"
         errors={state.errors}
       />
-      <button type="submit" disabled={state.submitting}>
-        Submit
-      </button>
+      <div>
+        <button type="submit" disabled={state.submitting}>
+            Submit
+        </button>
+      </div>
     </form>
     </div>
   )

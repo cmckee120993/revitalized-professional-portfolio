@@ -1,0 +1,62 @@
+/* Apple Core: #DCC7AA */
+/* Blueberry: #6B7A8F */
+/* Citrus: #F7C331 */
+/* Apricot: #F7882F */
+/* Rusty: #DD7E00 */
+
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Patrick+Hand&display=swap");
+
+.contact-title {
+    font-family: 'Acme', sans-serif;
+    font-size: 35px;
+    background: #F7C331;
+    color: #DD7E00;
+    -webkit-text-stroke: 2px #6B7A8F;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    top: 50px;
+    right: 20px;
+}
+.contact-form {
+    padding-top: 25px;
+}
+.contact-form, .contact-form div {
+    background: #DCC7AA;
+    align-items: center;
+}
+
+.contact-form div {
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact-form label, .contact-form button {
+    background: none;
+    font-family: 'Acme', sans-serif;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.contact-form button {
+   background: #DD7E00;
+   border: 3px solid #6B7A8F;
+}
+
+.contact-form button:hover {
+    background: #6B7A8F;
+    color: #F7C331;
+    text-decoration: underline;
+}
+
+.contact-form input, .contact-form textarea {
+    margin-left: 20px;
+}
+
+.contact-form input, .contact-form textarea {
+    background: #F7C331;
+    border: 3px solid #6B7A8F;
+    width: 60%;
+}

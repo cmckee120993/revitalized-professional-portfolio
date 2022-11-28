@@ -4,6 +4,7 @@
 /* Apricot: #F7882F */
 /* Rusty: #DD7E00 */
 @import url("https://fonts.googleapis.com/css2?family=Acme&family=Patrick+Hand&display=swap");
+
 .about {
     background: #DCC7AA;
     padding: 5px;
@@ -21,7 +22,6 @@
     background: none;
     display: flex;
     justify-content: center;
-    
 }
 
 .portrait {
