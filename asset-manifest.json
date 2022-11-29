@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/revitalized-professional-portfolio/static/css/main.e6142991.css",
+    "main.js": "/revitalized-professional-portfolio/static/js/main.1aea3693.js",
+    "static/js/787.b0bf442f.chunk.js": "/revitalized-professional-portfolio/static/js/787.b0bf442f.chunk.js",
+    "static/media/beverage-express.jpg": "/revitalized-professional-portfolio/static/media/beverage-express.9d4c5bae1a58b4408978.jpg",
+    "static/media/fortnite-app-screenshot.png": "/revitalized-professional-portfolio/static/media/fortnite-app-screenshot.fbd53d9cde1c1de39cd5.png",
+    "static/media/courier-app.png": "/revitalized-professional-portfolio/static/media/courier-app.b99eb32fc1dab33dbd48.png",
+    "static/media/clays-creative-solutions.png": "/revitalized-professional-portfolio/static/media/clays-creative-solutions.58e6d909cd943a62439b.png",
+    "static/media/clay-portrait.jpg": "/revitalized-professional-portfolio/static/media/clay-portrait.69896569d9424d4a916a.jpg",
+    "static/media/linkedin.webp": "/revitalized-professional-portfolio/static/media/linkedin.d65c817fb6cf15895db0.webp",
+    "index.html": "/revitalized-professional-portfolio/index.html",
+    "main.e6142991.css.map": "/revitalized-professional-portfolio/static/css/main.e6142991.css.map",
+    "main.1aea3693.js.map": "/revitalized-professional-portfolio/static/js/main.1aea3693.js.map",
+    "787.b0bf442f.chunk.js.map": "/revitalized-professional-portfolio/static/js/787.b0bf442f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6142991.css",
+    "static/js/main.1aea3693.js"
+  ]
+}
