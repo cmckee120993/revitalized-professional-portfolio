@@ -21,9 +21,13 @@
 .contact-form {
     padding-top: 25px;
 }
-.contact-form, .contact-form div {
+.contact-form, .contact-form div, .success-message {
     background: #DCC7AA;
     align-items: center;
+}
+
+.success-message  {
+    text-align: center;
 }
 
 .contact-form div {
@@ -33,16 +37,20 @@
     justify-content: space-around;
 }
 
-.contact-form label, .contact-form button {
+.contact-form label, .contact-form button, .success-message p, .success-message button {
     background: none;
     font-family: 'Acme', sans-serif;
     font-size: 20px;
     padding: 10px;
 }
 
-.contact-form button {
+.contact-form button, .success-message button {
    background: #DD7E00;
    border: 3px solid #6B7A8F;
+}
+
+.success-message button {
+    margin-bottom: 10px;
 }
 
 .contact-form button:hover {

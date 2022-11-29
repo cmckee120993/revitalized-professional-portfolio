@@ -9,9 +9,9 @@ function Contact() {
 
     if(state.succeeded) {
         return (
-            <div>
+            <div className="success-message">
                 <p>Thanks for your message! Clay will get back to you as soon as possible.</p>
-                <button onClick={() => window.location("/#about")}>Back to About Page</button>
+                <button onClick={() => window.location.reload()}>Back to About Page</button>
             </div>
         );
     }
