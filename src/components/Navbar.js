@@ -6,8 +6,8 @@ function Navigation(props) {
     return (
         <navbar className="topnav">
             {tabs.map((tab) => (
-            <button className={props.currentPage === tab ? 'nav-item is-active' : 'nav-item'} key={tab}>
-                <a href={'#' + tab.toLowerCase()} onClick={() => props.handlePageChange(tab)} className={props.currentPage === tab ? 'nav-link active' : 'nav-link'}>
+            <button key={tab}>
+                <a href={'#' + tab.toLowerCase()} onClick={() => props.handlePageChange(tab)} >
                     <h2>{tab}</h2>
                 </a>
             </button>

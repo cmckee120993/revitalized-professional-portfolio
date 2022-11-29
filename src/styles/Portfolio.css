@@ -1,0 +1,86 @@
+/* Apple Core: #DCC7AA */
+/* Blueberry: #6B7A8F */
+/* Citrus: #F7C331 */
+/* Apricot: #F7882F */
+/* Rusty: #DD7E00 */
+
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Patrick+Hand&display=swap");
+
+.project-title {
+    font-family: 'Acme', sans-serif;
+    font-size: 40px;
+    background: #F7C331;
+    color: #DD7E00;
+    -webkit-text-stroke: 1px #6B7A8F;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    top: 50px;
+    right: 20px;
+}
+
+.spotlight-project, .other-projects {
+    background: #DCC7AA;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.spotlight-project h3 {
+    background: #DD7E00;
+    text-align: left;
+    width: 200px;
+    padding: 10px;
+    padding-left: 20px;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 20px;
+    margin-bottom: -5px;
+}
+
+.spotlight-project a, .description, .note, .skill-list, .skill-list li, .project-two, .project-three, .other-projects a, .spotlight-header {
+background: none;
+}
+
+.description, .note {
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 20px;
+}
+.portfolio-icon {
+    background: none;
+    height: 50px;
+    width: 50px;
+    color: #DD7E00;
+    margin: 20px;
+    }
+    
+.spotlight-image {
+    background: none;
+    width: 75%;
+    height: 350px;
+    margin-top: 25px;
+}
+
+.project-image {
+    width: 50%;
+    height: 175px;
+    background: none;
+}
+
+.spotlight-image:hover, .project-image:hover {
+filter: saturate(2);
+}
+
+.skill-list {
+    font-family: 'Patrick Hand', cursive;
+    font-size: 20px;
+    list-style: none;
+    padding-bottom: 20px;
+}
+
+.spotlight-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

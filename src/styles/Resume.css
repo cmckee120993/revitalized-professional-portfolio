@@ -40,7 +40,9 @@
     padding: 5px;
     margin: 10px;
     justify-content: center;
+    border: 3px solid #6B7A8F;
 }
+
 .skills {
     padding-top: 15px;
 }
