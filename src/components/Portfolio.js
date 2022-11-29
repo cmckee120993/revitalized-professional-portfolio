@@ -5,7 +5,7 @@ import projectTwo from '../assets/images/fortnite-app-screenshot.png';
 import projectThree from '../assets/images/beverage-express.jpg';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faStar} from '@fortawesome/free-solid-svg-icons';
-
+import Collapsible from 'react-collapsible';
 
 function Portfolio() {
     return (
@@ -13,7 +13,7 @@ function Portfolio() {
             <h2 className="project-title">My Projects</h2>
             <div className="spotlight-project">
                 <div className="spotlight-header">
-                    <h3>Spotlight: Courier App</h3>
+                    <h3 className="project-header">Spotlight: Courier App</h3>
                     <FontAwesomeIcon className="portfolio-icon" icon={faStar}/>
                 </div>
                 <a href="https://courier-share.herokuapp.com/">
@@ -30,34 +30,43 @@ function Portfolio() {
                 </ul>
             </div>
             <div className="other-projects">
+                <h3 className="project-header">Other Projects</h3>
                 <div className="project-two">
                     <a href="https://swyner97.github.io/fortnite-app/">
                         <img src={projectTwo} alt="Fortnite gear and skins website screenshot" className="project-image" />
                     </a>
-                    <p className="description">This website is for Fortnite players who wish to look at how they can customize their characters without having to log onto the game. Two APIs populate the daily store as well as a full store archive.
-                    The project uses local storage to allow users to add gear that they want to a wishlist for later. Rather than having to scroll through the entire archive, users can search for desired items, even if they aren't in the Fortnite Store for that day. 
-                    This project was a collaboration with  Sarah Wyner and Andre Silva. Click on the image to check it out!
-                    </p>
-                    <p className="note">Before using the site, please go to <a href="https://cors-anywhere.herokuapp.com/corsdemo">Heroku App</a> to gain access to the proxy.</p>
-                    <ul className="skill-list">
-                        <li>HTML</li>
-                        <li>CSS/Bulma</li>
-                        <li>JavaScript/Jquery</li>
-                        <li>APIs</li>
-                    </ul>
+                    <div className="collapsible-div">
+                        <Collapsible className="additional-info" trigger="Click for more info..." triggerWhenOpen="Click for less info...">
+                            <p className="description">This website is for Fortnite players who wish to look at how they can customize their characters without having to log onto the game. Two APIs populate the daily store as well as a full store archive.
+                            The project uses local storage to allow users to add gear that they want to a wishlist for later. Rather than having to scroll through the entire archive, users can search for desired items, even if they aren't in the Fortnite Store for that day. 
+                            This project was a collaboration with  Sarah Wyner and Andre Silva. Click on the image to check it out!
+                            </p>
+                            <p className="note">Before using the site, please go to <a href="https://cors-anywhere.herokuapp.com/corsdemo">Heroku App</a> to gain access to the proxy.</p>
+                            <ul className="skill-list">
+                                <li>HTML</li>
+                                <li>CSS/Bulma</li>
+                                <li>JavaScript/Jquery</li>
+                                <li>APIs</li>
+                            </ul>
+                        </Collapsible>
+                    </div>
                 </div>
 
                 <div className="project-three">
                     <a href="mybevexp.com">
                         <img src={projectThree} alt="Beer distributor website screenshot" className="project-image" />
                     </a>
-                    <p className="description">This website is a placeholder for larger, more in-depth website for Beverage Express, a beer distributor in Carlisle, Pennsylvania. The styling fits their desires. 
-                        The favicon and the business' logo were also designed by me. The first step is this single-page site, which lists their current products on tap, their contact, and some basic information about the store. 
-                        My contract continues with them to create a more dynamic site with product search capability, order options, and more! Click on the image to check it out!</p>
-                    <ul className="skill-list">
-                        <li>HTML</li>
-                        <li>CSS/Bootstraps</li>
-                    </ul>
+                    <div className="collapsible-div">
+                        <Collapsible className="additional-info" trigger="Click for more info..." triggerWhenOpen="Click for less info...">
+                            <p className="description">This website is a placeholder for larger, more in-depth website for Beverage Express, a beer distributor in Carlisle, Pennsylvania. The styling fits their desires. 
+                                The favicon and the business' logo were also designed by me. The first step is this single-page site, which lists their current products on tap, their contact, and some basic information about the store. 
+                                My contract continues with them to create a more dynamic site with product search capability, order options, and more! Click on the image to check it out!</p>
+                            <ul className="skill-list">
+                                <li>HTML</li>
+                                <li>CSS/Bootstraps</li>
+                            </ul>
+                        </Collapsible>
+                    </div>
                 </div>
             </div>
         </div>

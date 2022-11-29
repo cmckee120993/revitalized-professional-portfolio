@@ -5,6 +5,10 @@
 /* Rusty: #DD7E00 */
 @import url("https://fonts.googleapis.com/css2?family=Acme&family=Patrick+Hand&display=swap");
 
+.education-div, .programming-skills {
+    background: none;
+}
+
 .resume-cat {
     background: #DCC7AA;
     padding: 20px;
@@ -70,4 +74,50 @@
 
 .university-info li {
     list-style-type: square;
+}
+
+.resume-icon {
+    display: none;
+}
+
+@media only screen and (min-width: 1000px) {
+    .resume-icon {
+        display: block;
+        position: relative;
+        top: -500px;
+        left: 700px;
+        height: 200px;
+        width: 200px;
+        background: none;
+        color: #DD7E00;
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+    .programming-skills {
+        width: 550px;
+        float: left;
+        margin-left: 100px;
+    }
+
+    .education-div {
+        width: 550px;
+        float: right;
+        margin-right: 100px;
+    }
+
+    .resume-cat {
+        height: 850px;
+    }
+
+    .resume-icon {
+        display: block;
+        position: relative;
+        top: 400px;
+        left: -300px;
+        height: 200px;
+        width: 200px;
+        background: none;
+        color: #DD7E00;
+    }
 }

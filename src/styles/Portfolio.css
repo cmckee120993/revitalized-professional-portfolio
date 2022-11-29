@@ -25,7 +25,7 @@
     padding-top: 10px;
 }
 
-.spotlight-project h3 {
+.project-header {
     background: #DD7E00;
     text-align: left;
     width: 200px;
@@ -36,7 +36,11 @@
     margin-bottom: -5px;
 }
 
-.spotlight-project a, .description, .note, .skill-list, .skill-list li, .project-two, .project-three, .other-projects a, .spotlight-header {
+.other-projects h3 {
+    width: 120px;
+}
+
+.spotlight-project a, .description, .note, .skill-list, .skill-list li, .project-two, .project-three, .other-projects a, .spotlight-header, .collapsible-div {
 background: none;
 }
 
@@ -66,6 +70,8 @@ background: none;
     width: 50%;
     height: 175px;
     background: none;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 .spotlight-image:hover, .project-image:hover {
@@ -83,4 +89,56 @@ filter: saturate(2);
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.additional-info, .additional-info span, .Collapsible span {
+    background: #DD7E00;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.additional-info span:hover, .Collapsible span:hover {
+    background: #6B7A8F;
+    color: #F7882F;
+    text-decoration: underline;
+}
+
+.additional-info {
+    padding-bottom: 20px;
+}
+
+.Collapsible, .Collapsible div {
+    background: none;
+}
+
+@media only screen and (min-width: 850px) {
+    .spotlight-image {
+        width: 70%;
+        height: 500px;
+    }
+    .other-projects {
+        display: flex;
+    }
+
+    .other-projects h3 {
+        width: 300px;
+        height: 50px;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 1100px) {
+    .spotlight-image {
+        width: 60%;
+        height: 500px;
+    }
+
+    .project-image {
+        width: 50%;
+        height: 250px;
+        background: none;
+        margin-bottom: 10px;
+    }
+    
 }

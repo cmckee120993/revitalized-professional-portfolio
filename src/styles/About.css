@@ -79,3 +79,54 @@
     margin-left: 10px;
     margin-right: 10px;
 }
+
+@media only screen and (min-width: 1050px) {
+.card-header {
+    position: absolute;
+    left: 10%;
+}
+
+.about-info {
+    float: right;
+    width: 500px;
+    height: 475px;
+    padding-top: 0px;
+    position: absolute;
+    top: 575px;
+    left: 47%;
+}
+
+.about {
+    height: 675px;
+    display: flex;
+    justify-content: space-around;
+}
+}
+
+@media only screen and (min-width: 1165px) {
+    .about-info {
+        top: 500px;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    .portrait {
+        height: 400px;
+        width: 200px;
+        margin-top: 75px;
+    }
+    .title-list li, .title-list {
+        margin-left: 100px;
+        padding-right: 10px;
+        font-size: 30px;
+        font-family: 'Patrick Hand', cursive;
+    }
+
+    .title-list {
+        margin-top: -200px;
+    }
+
+    .card-title h2 {
+        padding-top: 50px;
+    }
+}
