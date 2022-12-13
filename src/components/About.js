@@ -13,8 +13,8 @@ function About() {
                 </div>
                 <ul className="title-list">
                     <li>Full Stack Developer</li>
-                    <li>Freelance Coder</li>
-                    <li>Curious Individual</li>
+                    <li>Translator</li>
+                    <li>Writer and Editor</li>
                 </ul>
             </div>
             <div className="about-info">
