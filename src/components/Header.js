@@ -4,7 +4,6 @@ import About from './About';
 import Portfolio from './Portfolio';
 import Contact from './Contact';
 import Resume from './Resume';
-import Rates from './Rates';
 import '../styles/Header.css';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faFileCode} from '@fortawesome/free-solid-svg-icons';
@@ -24,9 +23,6 @@ function Header() {
                 return <Contact />;
             case "Resume":
                 return <Resume />;
-            case "Rates":
-                return <Rates />;
-
             default: 
                 return <About />;
         }

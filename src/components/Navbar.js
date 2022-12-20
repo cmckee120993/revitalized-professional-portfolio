@@ -2,7 +2,7 @@ import React from 'react';
 import '../styles/Navbar.css';
 
 function Navigation(props) {
-    const tabs = ['About', 'Portfolio', 'Contact', 'Resume', 'Rates']
+    const tabs = ['About', 'Portfolio', 'Contact', 'Resume']
     return (
         <navbar className="topnav">
             {tabs.map((tab) => (
